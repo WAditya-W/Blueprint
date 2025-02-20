@@ -1,0 +1,282 @@
+{
+	"info": {
+		"_postman_id": "ef7ad19c-12da-408c-9071-6ab9db29313e",
+		"name": "ProductJWT",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "40129292"
+	},
+	"item": [
+		{
+			"name": "Product",
+			"item": [
+				{
+					"name": "api/products",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkaXQiLCJuYmYiOjE3NDAwNjYyNzEsImV4cCI6MTc0MDA3MzQ3MSwiaWF0IjoxNzQwMDY2MjcxLCJpc3MiOiJzZXJ2ZXJfaXNzdWVyIiwiYXVkIjoic2VydmVyX2F1ZGllbmNlIn0.sZtjP6M6UvCQkAIYqii3vopEXJE6jM4vniwclRBP5K8",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7150/api/products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7150",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/products/wortel",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkaXQiLCJuYmYiOjE3NDAwNjYyNzEsImV4cCI6MTc0MDA3MzQ3MSwiaWF0IjoxNzQwMDY2MjcxLCJpc3MiOiJzZXJ2ZXJfaXNzdWVyIiwiYXVkIjoic2VydmVyX2F1ZGllbmNlIn0.sZtjP6M6UvCQkAIYqii3vopEXJE6jM4vniwclRBP5K8",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7150/api/products/wortel",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7150",
+							"path": [
+								"api",
+								"products",
+								"wortel"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/products",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkaXQiLCJuYmYiOjE3NDAwNjYyNzEsImV4cCI6MTc0MDA3MzQ3MSwiaWF0IjoxNzQwMDY2MjcxLCJpc3MiOiJzZXJ2ZXJfaXNzdWVyIiwiYXVkIjoic2VydmVyX2F1ZGllbmNlIn0.sZtjP6M6UvCQkAIYqii3vopEXJE6jM4vniwclRBP5K8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"jagung\",\r\n  \"description\": \"jagung segar\",\r\n  \"price\": 4000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7150/api/products",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7150",
+							"path": [
+								"api",
+								"products"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/products",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "PUT",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkaXQiLCJuYmYiOjE3NDAwNjYyNzEsImV4cCI6MTc0MDA3MzQ3MSwiaWF0IjoxNzQwMDY2MjcxLCJpc3MiOiJzZXJ2ZXJfaXNzdWVyIiwiYXVkIjoic2VydmVyX2F1ZGllbmNlIn0.sZtjP6M6UvCQkAIYqii3vopEXJE6jM4vniwclRBP5K8",
+								"type": "text"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"name\": \"jagung\",\r\n  \"description\": \"jagung segar\",\r\n  \"price\": 4000\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7150/api/products/jagung",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7150",
+							"path": [
+								"api",
+								"products",
+								"jagung"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/products",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "DELETE",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkaXQiLCJuYmYiOjE3NDAwNjYyNzEsImV4cCI6MTc0MDA3MzQ3MSwiaWF0IjoxNzQwMDY2MjcxLCJpc3MiOiJzZXJ2ZXJfaXNzdWVyIiwiYXVkIjoic2VydmVyX2F1ZGllbmNlIn0.sZtjP6M6UvCQkAIYqii3vopEXJE6jM4vniwclRBP5K8",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7150/api/products/jagung",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7150",
+							"path": [
+								"api",
+								"products",
+								"jagung"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "User",
+			"item": [
+				{
+					"name": "api/auth/register",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"adit\",\r\n  \"password\": \"adit\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7150/api/auth/register",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7150",
+							"path": [
+								"api",
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/auth/login",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n  \"username\": \"adit\",\r\n  \"password\": \"adit\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "https://localhost:7150/api/auth/login",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7150",
+							"path": [
+								"api",
+								"auth",
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "api/auth/logout",
+					"request": {
+						"auth": {
+							"type": "noauth"
+						},
+						"method": "POST",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1bmlxdWVfbmFtZSI6ImFkaXQiLCJuYmYiOjE3NDAwNjYyNzEsImV4cCI6MTc0MDA3MzQ3MSwiaWF0IjoxNzQwMDY2MjcxLCJpc3MiOiJzZXJ2ZXJfaXNzdWVyIiwiYXVkIjoic2VydmVyX2F1ZGllbmNlIn0.sZtjP6M6UvCQkAIYqii3vopEXJE6jM4vniwclRBP5K8",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "https://localhost:7150/api/auth/logout",
+							"protocol": "https",
+							"host": [
+								"localhost"
+							],
+							"port": "7150",
+							"path": [
+								"api",
+								"auth",
+								"logout"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
